@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Playwright test files and results
+test-results/
+playwright-report/
+*.test.ts
+*.test.js
+*.test.tsx
+*.test.jsx
+*.test.mjs
+*.test.cjs
+
+# Playwright screenshots and videos
+test/screenshots/
+test/videos/
+
+# Playwright-specific configuration
+playwright.config.ts
+playwright.config.js
+
+# Miscellaneous Playwright files
+coverage/
