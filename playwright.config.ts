@@ -5,7 +5,7 @@ export default defineConfig({
     use: {
         headless: false,
         baseURL: 'https://www.saucedemo.com/',
-        storageState: 'state.json',
+        // storageState: 'state.json',
         browserName: 'chromium',
         channel: 'chrome',
         viewport: { width: 1920, height: 1080 },
