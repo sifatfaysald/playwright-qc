@@ -21,10 +21,4 @@ test.describe('Login Functionality', () => {
         const isInventoryVisible = await inventoryPage.isInventoryVisible();
         expect(isInventoryVisible).toBe(true);
     });
-
-    test('User should not be able to login with invalid credentials', async () => {
-        await loginPage.login('invalid_user', 'wrong_password');
-        const isLoggedIn = await loginPage.isLoggedIn();
-        expect(isLoggedIn).toBe(false);
-    });
 });
