@@ -7,7 +7,6 @@ test.describe('Login Functionality', () => {
     let loginPage: LoginPage;
     let inventoryPage: InventoryPage;
 
-    // ফিকচার: টেস্ট শুরুর আগে loginPage ও inventoryPage তৈরি করা
     test.beforeEach(async ({ page }) => {
         loginPage = new LoginPage(page);
         inventoryPage = new InventoryPage(page);
