@@ -1,4 +1,3 @@
-// loginPage.ts
 import { Page } from '@playwright/test';
 
 export class LoginPage {
